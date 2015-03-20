@@ -45,6 +45,8 @@ namespace DapperNet.Web.Common
 
         public DbSet<DBUser> DBUser { get; set; }
 
+        public DbSet<Test> Test { get; set; }
+
         /// <summary>
         /// 实体创建,需加入映射关系
         /// </summary>

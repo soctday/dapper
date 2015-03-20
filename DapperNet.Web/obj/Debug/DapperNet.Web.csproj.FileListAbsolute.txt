@@ -42,3 +42,6 @@ E:\Work\Source\Git\DapperNet\DapperNet.Web\obj\Debug\DapperNet.Web.csprojResolve
 E:\Work\Source\Git\DapperNet\DapperNet.Web\obj\Debug\DapperNet.Web.dll
 E:\Work\Source\Git\DapperNet\DapperNet.Web\obj\Debug\DapperNet.Web.pdb
 E:\Work\Source\Git\DapperNet\DapperNet.Web\bin\EntityFramework.dll
+E:\Work\Source\Git\DapperNet\DapperNet.Web\bin\Commons.dll
+E:\Work\Source\Git\DapperNet\DapperNet.Web\bin\Memcached.ClientLibrary.dll
+E:\Work\Source\Git\DapperNet\DapperNet.Web\bin\log4net.dll

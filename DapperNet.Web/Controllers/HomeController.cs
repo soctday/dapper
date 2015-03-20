@@ -33,11 +33,11 @@ namespace DapperNet.Web.Controllers
         [PerformanceActionAttributeFilter(Message = "action")]
         public ActionResult Ef()
         {
-            DBUser user = new DBUser();
+            Test user = new Test();
             for (int i = 0; i < 10000; i++)
             {
                 user.Name = "张三" + i;
-                CRMDBContext.CurrentThreadCRMDBContext.DBUser.Add(user);
+                CRMDBContext.CurrentThreadCRMDBContext.Test.Add(user);
 
                 CRMDBContext.CurrentThreadCRMDBContext.SaveChanges();
             }
